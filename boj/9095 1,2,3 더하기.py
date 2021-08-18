@@ -9,8 +9,6 @@ def cnt(re):
         return 2
     elif re == 3:
         return 4
-    elif re < 0:
-        return 0
     else:
         return cnt(re - 1) + cnt(re - 2) + cnt(re -3)
 
