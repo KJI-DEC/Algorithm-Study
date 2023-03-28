@@ -1,5 +1,5 @@
 n = int(input())
-data = list(map(str, input().split()))
+data = input().split()
 
 # R U L D
 dx = [0, -1, 0, 1]  # 세로
